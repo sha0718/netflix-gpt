@@ -19,7 +19,7 @@ const MovieList = ({ title, movies }) => {
 
     return (
         <div className="px-6 relative group">
-            <h1 className="text-3xl py-4 text-white">{title}</h1>
+            <h1 className=" text-lg md:text-3xl py-4 text-white">{title}</h1>
             
             {/* Left Arrow Button */}
             <button 
