@@ -67,10 +67,10 @@ const Header = () => {
                 ))}
               </select>
             )}
-            <button className='text-white py-2 px-4 mx-4 rounded-lg bg-purple-700' onClick={handleGPTSearch}>{showGptSearch ? "Homepage" : "GPT Search"}</button>
+            <button className='text-white py-2 px-4 mx-4 rounded-lg bg-red-600' onClick={handleGPTSearch}>{showGptSearch ? "Homepage" : "GPT Search"}</button>
             <img className = " hidden md:block w-12 h-12"
              alt = "usericon" src = {user.photoURL} />
-        <button onClick={handleSignOut} className = "bg-red-700 p-2 rounded-lg ">Sign Out</button>
+        <button onClick={handleSignOut} className = "bg-red-600 p-2 rounded-lg text-white ">Sign Out</button>
         </div>
 )} 
    
